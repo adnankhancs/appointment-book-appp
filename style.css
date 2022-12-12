@@ -1,0 +1,83 @@
+*{
+
+    margin: 0;
+
+    padding: 0px;
+
+    box-sizing: border-box;  
+
+    
+
+}
+
+body{
+
+    
+
+    height: 100vh;
+  
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: rgb(147, 123, 170) !important;
+
+
+
+}
+
+.Login{
+
+    width:fit-content;
+
+    height: min-content;
+
+    padding:20px;
+
+    border-radius: 12px;
+
+    background: rgb(119, 181, 121) ;
+
+
+
+}
+
+.Login h1{
+
+    font-size: 40px;
+
+    margin-bottom:25px ;
+
+
+
+}
+
+
+
+.Login form{
+
+    font-size: 20px;
+
+}
+
+.Login form .form-group{
+
+    margin-bottom: 10px;
+    
+
+
+
+}
+
+.Login form input[type="submit"]
+
+{
+
+    font-size: 20px;
+
+    margin-top: 15px;
+
+}
