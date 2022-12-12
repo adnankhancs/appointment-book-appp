@@ -7,17 +7,17 @@ function a(e){
     //console.log(1);
     const a=document.querySelectorAll('input');
     const b=document.querySelectorAll('label');
-    var cat={}
+    // var cat={}
     for(var i=0;i<a.length-1;i++){
-        cat[b[i].innerText]=a[i].value;
-
+        // cat[b[i].innerText]=a[i].value;
+        localStorage.setItem(b[i].innerText,a[i].value)
         // console.log(cat);
         // console.log(b[i].innerText+'---'+a[i].value);
 
     
 
     }
-    localStorage.setItem('appointmnt1',cat)
+    
     console.log(cat);
 
 }
